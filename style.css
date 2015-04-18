@@ -1,0 +1,392 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Name: AllStyle
+Site: http://live-e.tamakagi.com
+Date: 2013/08/15 Thu
+Author: Tomoyuki Koyama
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * /
+
+/*
+Common
+*************************************************************/
+
+* {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+}
+p {
+	font-size: 17px;
+}
+html,body {
+	background-color: #EEEEEE;
+}
+#wrap {
+	width: 90%;
+	max-width: 940px;
+	margin: 20px auto;
+	padding: 10px 20px;
+	background-color: #ffffff;
+}
+div.head-top {
+	margin: 20px 0;
+	display: inline-block;
+	width: 100%;
+}
+h1.title {
+	display: inline;
+}
+h1.title a {
+	text-decoration: none;
+	color: #000;
+}
+p.description {
+	display: inline;
+	float: right;
+	margin: 0;
+}
+p.img-area {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+img.head-image {
+	display: block;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	max-width: 960px;
+	vertical-align: text-bottom;
+}
+nav.head-menu {
+	border: none;
+	background-color: #111 !important;
+}
+nav.head-menu>ul {
+	height: auto !important;
+}
+nav.head-menu>ul>li.button {
+		display: none;
+}
+nav.pure-menu li a {
+	line-height: 1.7;
+}
+li.pure-menu-selected a {/* セレクト */
+	color: #fff !important;
+}
+li.pure-menu-selected a:hover {/* セレクト */
+	color: #777 !important;
+}
+div.container {
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+}
+div.main {
+	margin: 0px;
+	float: left;
+}
+div.blank-space {
+	padding: 0 20px;
+}
+
+div.side {
+	float: right;
+}
+ul.link {
+	padding-left: 0;
+}
+footer {
+	border-top: solid 4px #000;
+	clear: both;
+	float: none;
+}
+
+/*
+Page Original Style
+*************************************************************/
+
+/* Top Page */
+p.marquee {
+	padding: 10px 0;
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	display:-wap-marquee;
+	overflow: scroll;
+	overflow: auto;
+	overflow: -webkit-marquee;
+	white-space: normal;
+	white-space: nowrap;
+}
+
+
+div#map-area {
+  height: 450px;
+  width: 50%;
+  float: left;
+}
+div.panel {
+	width: 25%;
+	float: left;
+	background-color: #D9E7F7;
+	margin-bottom: 3px;
+}
+div.panel2 {
+	width: 50%;
+}
+div.clear-style {
+	float: none;
+	clear: both;
+}
+p.top-maps {
+	_width: 25%;
+	margin: 0;
+	float: left;
+}
+p.top-maps img {
+	width: 100%;
+}
+span.label {
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0;
+	border-right: 1px solid #fff;
+	background-color: #405970;
+	color: #fff;	
+}
+span.value {
+	min-height: 30px;
+	display: block;
+	font-size: 27px;
+	text-align: center;
+	padding: 20px 0;
+	border-right: 1px solid #fff;
+}
+div.twitter {
+	float: left;
+	width: 50%;
+	margin: 20px 0;
+}
+div.facebook  {
+	margin: 20px 0;
+}
+div.facebook iframe {
+	border: none;
+	overflow: hidden;
+	width: 50% !important;
+	height: 400px;
+}
+/* Here Page */
+p.maps-area {
+	float: left;
+	margin: 0;
+	width: 48%;
+}
+img.point-maps {
+	width: 100%;
+	max-width: 450px;
+}
+ul.list5 {
+	width: 50%;
+	max-width: 450px;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+ul.list5 li {
+	background-color: #f0f0f0;
+	margin-bottom: 10px;
+}
+ul.list5 li.point1 {
+	background-color: #3498DB;
+}
+ul.list5 li.point2 {
+	background-color: #F1C40F;
+}
+ul.list5 li.point3 {
+	background-color: #27AE60;
+}
+ul.list5 li.point4 {
+	background-color: #E67E22;
+}
+ul.list5 li.point5 {
+	background-color: #9B59B6;
+}
+ul.list5 li a {
+	display: block;
+	padding: 15px 5px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	
+}
+ul.list5 li a span {
+	padding: 0 10px;
+}
+/* PointSearch Page */
+#search-p .search-point {
+	max-width: 500px;
+}
+table.search_table {
+	margin: 30px 0;
+}
+
+/*
+Pure CSS Custmize
+*************************************************************/
+.pure-g {
+	letter-spacing: normal;
+}
+.pure-button-success,
+.pure-button-error,
+.pure-button-warning,
+.pure-button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.pure-button-success {
+    background: rgb(28, 184, 65); /* this is a green */
+}
+
+.pure-button-error {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.pure-button-warning {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.pure-button-secondary {
+    background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+/*
+Media Query
+*************************************************************/
+@media screen and (max-width: 800px) {
+	div.main {
+		width: 100%;
+	}
+	div#left,div#right {
+    float: none;
+  }
+	div.panel {
+		width: 50%;
+	}
+	div.panel2 {
+		width: 100%;
+	}
+	div#map-area {
+    height: 300px;
+    width: 100%;
+    float: left;
+  }
+	div.side {
+		display: block;
+		width: 100%;
+	}
+	p.maps-area {
+		float: none;
+		margin: 0 auto;
+		width:100%;
+	}
+	img.point-maps {
+		margin: 20px auto;
+		display: block;
+	}
+
+	ul.list5 {
+		width: 100%;
+		max-width: 100%;
+		float: none;
+	}
+	
+}
+@media screen and (max-width: 500px) {
+	html,body {
+		background-color: #FFFFFF;
+	}
+	#wrap {
+		margin: 0 auto;
+		width: 95%;
+		padding: 10px 0;
+	}
+	div.head-top {
+		margin: 0;
+	}
+	nav.head-menu>ul {
+		display: block;
+		width: 100%;
+	}
+	/* (始)OFFの時 */
+	nav.head-menu>ul.off>li.button {
+		display: block;
+	}
+	nav.head-menu>ul.off>li {
+		display: none;
+	}
+	/* (終)OFFの時 */
+	/* (始)ONの時 */
+	nav.head-menu>ul.on>li {
+		display: block;
+	}
+	nav.head-menu>ul.on>li.button {
+		display: block;
+	}
+	/* (終)ONの時 */
+	div#left,div#right {
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	div.blank-space > h2 {
+	  display: none;
+	}
+	div.panel {
+		width: 100%;
+	}
+	div.panel span.label {
+	  width: 30%;
+		border: none;
+		float: left;
+    line-height: 3.5;
+    padding: 0;
+	}
+	div.panel span.value {
+	  width: 70%;
+		border: none;
+		float: right;
+    line-height: 2.6;
+    padding: 0;
+	}
+	div.panel2 span.label {
+	  width: 100%;
+	  line-height: 1.2;
+	  padding: 10px 0;
+	  float: none;
+	}
+	div.panel2 span.value {
+	  width: 100%;
+	  line-height: 1.2;
+	  padding: 20px 0;
+	  float: none;
+	}
+	p.top-maps {
+		width: 100%;
+	}
+	div#map-area {
+	  height: 150px;
+	}
+	div.twitter {
+		float: none;
+		width: 100%;
+	}
+	div.twitter iframe{
+		width: 100%;
+	}
+	div.facebook iframe {
+		border: none;
+		overflow: hidden;
+		width: 100% !important;
+	}
+}
